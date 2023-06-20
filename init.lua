@@ -1,5 +1,5 @@
 return {
-  colorscheme = "dracula",
+  colorscheme = "kanagawa",
 
   -- Configure AstroNvim updates
   updater = {
