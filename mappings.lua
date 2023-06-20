@@ -20,6 +20,8 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<C-S-Left>"] = { ":bp<cr>", desc = "Go to the left tab" },
+    ["<C-S-Right>"] = { ":bn<cr>", desc = "Go to the right tab" },
   },
   t = {
     -- setting a mapping to false will disable it

@@ -1,4 +1,6 @@
 return {
+  colorscheme = "dracula",
+
   -- Configure AstroNvim updates
   updater = {
     remote = "origin", -- remote to use
@@ -16,9 +18,6 @@ return {
       --   ["remote3"] = "github_user", -- GitHub user assume AstroNvim fork
     },
   },
-
-  -- Set colorscheme to use
-  colorscheme = "astrodark",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
