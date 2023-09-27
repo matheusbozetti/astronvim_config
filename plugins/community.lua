@@ -10,4 +10,5 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.git.git-blame-nvim" },
+  { import = "astrocommunity.pack.rust" },
 }
